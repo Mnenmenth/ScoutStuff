@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="alliance_types">
+        <item>Select Alliance</item>
+        <item>Red Alliance</item>
+        <item>Blue Alliance</item>
+    </string-array>
+
+    <string-array name="highStack">
+        <item>Highest Stack</item>
+        <item>LESS???</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>MOAR???</item>
+    </string-array>
+
+</resources>

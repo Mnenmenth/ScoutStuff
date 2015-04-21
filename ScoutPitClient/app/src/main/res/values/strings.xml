@@ -1,0 +1,17 @@
+<resources>
+
+    <string-array name="navigation_items">
+        <item>Home</item>
+        <item>Auton</item>
+        <item>Teleop</item>
+        <item>Collection Locations</item>
+    </string-array>
+
+    <string name="drawer_open">Open Navigation drawer</string>
+    <string name="drawer_close">Close Navigation drawer</string>
+
+    <string name="app_name">ScoutPitClient</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>

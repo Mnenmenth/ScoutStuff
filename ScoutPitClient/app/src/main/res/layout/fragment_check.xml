@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/hcheckFragment"
+    android:name="CheckFragment">
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coopertition"
+        android:id="@+id/coopertition"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="59dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Landfill"
+        android:id="@+id/landfill"
+        android:checked="false"
+        android:layout_alignTop="@+id/coopertition"
+        android:layout_toEndOf="@+id/coopertition"
+        android:layout_marginStart="64dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auton Tote"
+        android:id="@+id/autonTote"
+        android:layout_below="@+id/coopertition"
+        android:layout_alignStart="@+id/coopertition"
+        android:layout_marginTop="99dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auton RC"
+        android:id="@+id/autonRC"
+        android:checked="false"
+        android:layout_alignTop="@+id/autonTote"
+        android:layout_alignStart="@+id/landfill" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auton Move Forward"
+        android:id="@+id/autonMoveForward"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/autonTote"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cap Stack"
+        android:id="@+id/capStack"
+        android:checked="false"
+        android:layout_alignTop="@+id/autonMoveForward"
+        android:layout_alignStart="@+id/autonRC" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Highest Stack: "
+        android:id="@+id/highStackText"
+        android:layout_marginTop="81dp"
+        android:layout_below="@+id/autonMoveForward"
+        android:layout_toStartOf="@+id/capStack" />
+
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highStack"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/autonMoveForward"
+        android:layout_marginBottom="79dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feeder"
+        android:id="@+id/feeder"
+        android:layout_below="@+id/coopertition"
+        android:layout_alignStart="@+id/coopertition"
+        android:checked="false" />
+
+</RelativeLayout>

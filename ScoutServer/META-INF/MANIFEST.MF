@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: /home/mnenmenth/Documents/Coding/ScoutServer/src/main/java /home/mnenmenth/Documents/Coding/ScoutServer/libs/poi-3.11/*.jar
+Main-Class: Server
+

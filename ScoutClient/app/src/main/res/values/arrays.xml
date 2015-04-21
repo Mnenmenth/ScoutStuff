@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="alliance_types">
+        <item>Select Alliance</item>
+        <item>Red Alliance</item>
+        <item>Blue Alliance</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/locationFragment"
+    android:name="LocationFragment">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shoot Door? Shoot Door"
+        android:id="@+id/shootDoor"
+        android:checked="false"
+        android:layout_marginTop="82dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/hasAuton" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auton"
+        android:id="@+id/hasAuton"
+        android:layout_below="@+id/shootDoor"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upside Down Tote"
+        android:id="@+id/uTote"
+        android:checked="false"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/shootDoor" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Step/Landfill"
+        android:id="@+id/landfill"
+        android:checked="false"
+        android:layout_marginBottom="78dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/uTote" />
+</RelativeLayout>
